@@ -13,7 +13,7 @@ cam0:
   distortion_model: equidistant
   intrinsics: [282.019963259348, 280.7145153126385, 415.9558137753508, 396.6613771975339]
   resolution: [848, 800]
-  rostopic: /t265/fisheye1/image_raw
+  rostopic: /camera/fisheye1/image_raw
   timeshift_cam_imu: 0.005618603727452336
 
 cam1:
@@ -33,7 +33,7 @@ cam1:
   distortion_model: equidistant
   intrinsics: [281.49219856329046, 280.3289056204996, 414.09933409091184, 406.02198481912353]
   resolution: [848, 800]
-  rostopic: /t265/fisheye2/image_raw
+  rostopic: /camera/fisheye2/image_raw
   timeshift_cam_imu: 0.005583860066266795
 
 
